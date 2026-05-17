@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray_background">
+
+        <!-- TOPO COM BOTÃO HAMBURGUER -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/app_name"
+            android:backgroundTint="@color/kids_blue"
+            android:titleTextColor="@android:color/white"/>
+
+        <!-- SUA TELA (mantive seu conteúdo) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/welcome_message"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonFood"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_yellow"
+                android:text="@string/title_food"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/buttonFruits"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_green"
+                android:text="@string/title_fruits"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/buttonHouse"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_pink"
+                android:text="@string/title_house"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/buttonAlphabet"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_purple"
+                android:text="@string/title_alphabet"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_orange"
+                android:text="ANIMALS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_red"
+                android:text="COLORS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/kids_blue"
+                android:text="NUMBERS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_info"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:alpha="0.7"/>
+
+    </LinearLayout>
+
+    <!-- MENU LATERAL -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_lateral"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

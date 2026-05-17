@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">English for Kids</string>
+    <string name="open">Abrir menu</string>
+    <string name="close">Fechar menu</string>
+    <string name="title_animals">Animals</string>
+    <string name="title_colors">Colors</string>
+    <string name="title_numbers">Numbers</string>
+    <string name="title_alphabet">ALPHABET</string>
+    <string name="title_house">HOUSE</string>
+    <string name="title_food">FOOD</string>
+    <string name="title_fruits">FRUITS</string>
+    <string name="welcome_message">O que vamos aprender hoje? 😁</string>
+    <string name="developer_info">Desenvolvido por Pablo da Silva, Rolante-RS • Aprenda inglês de forma simples</string>
+</resources>

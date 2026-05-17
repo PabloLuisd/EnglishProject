@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_food"
+        android:title="Food"/>
+
+    <item
+        android:id="@+id/nav_fruits"
+        android:title="Fruits"/>
+
+    <item
+        android:id="@+id/nav_house"
+        android:title="House"/>
+
+    <item
+        android:id="@+id/nav_alphabet"
+        android:title="Alphabet"/>
+
+    <item
+        android:id="@+id/nav_animais"
+        android:title="Animals"/>
+
+    <item
+        android:id="@+id/nav_cores"
+        android:title="Colors"/>
+
+    <item
+        android:id="@+id/nav_numeros"
+        android:title="Numbers"/>
+
+</menu>

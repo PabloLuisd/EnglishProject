@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Kid-friendly Palette -->
+    <color name="kids_red">#FF6B6B</color>
+    <color name="kids_yellow">#FFD93D</color>
+    <color name="kids_green">#6BCB77</color>
+    <color name="kids_blue">#4D96FF</color>
+    <color name="kids_purple">#9B59B6</color>
+    <color name="kids_orange">#FF9F43</color>
+    <color name="kids_pink">#FF85A2</color>
+
+    <color name="gray_background">#E0E0E0</color>
+    <color name="dark_gray_background">#424242</color>
+
+    <!-- Theme Colors -->
+    <color name="colorPrimary">#4D96FF</color>
+    <color name="colorSecondary">#FFD93D</color>
+    <color name="colorTertiary">#6BCB77</color>
+</resources>
